@@ -16,15 +16,24 @@
 
 .modal >  h2, .modal > h3, .modal:first-child .demo-cont__credits-close  {
         background: #5433FF;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
 
 
-
+@media screen and (max-width: 560px) {
+        .modal:nth-child(2)  td.year  {  
+                background: rgb(166, 26, 190) !important;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, rgb(166, 26, 190), rgb(166, 26, 190)) !important;  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left,rgb(166, 26, 190), rgb(166, 26, 190)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;  
+        }
+}
 #logo {width: 80px;}
 
 @font-face {
@@ -1619,10 +1628,12 @@ ul:not(.modal ul) {list-style-type: none !important;}
                         ;}
                         .modal:nth-of-type(2) * {text-align: center !important;}
                         #left table {text-align: center !important;}
-
+                       
                         #left table td:first-child {
                                 padding: 10px 0;
-                                display: flex;
+                        
+                                width: 100% !important; 
+                                display: block !important;
                                 flex-direction: column;
                                 align-items: center !important;
                                 justify-content: center !important;
@@ -1631,7 +1642,7 @@ ul:not(.modal ul) {list-style-type: none !important;}
                         }
                         #left table tr td p:first-of-type  {padding-top: 25px !important;}
 
-                        #left table td:first-child {display: unset; text-align: center !important;}
+                        #left table td:first-child {display: block !important; text-align: center !important; }
     }
 
     @media screen and (max-width: 500px) {
