@@ -5,8 +5,10 @@
 * {
                 word-wrap: break-word;
                 font-family: "font1";
-  background-attachment: fixed;
+             
 }
+
+.modal * {   background-attachment: fixed;}
 
 @font-face {
         font-family: "font1";
@@ -17,7 +19,7 @@ background-size: cover;}
   .fnc-nav__control-progress { background:blue;
         }
 .modal >  h2, .modal > h3, .modal:first-child .demo-cont__credits-close  {
-        background: #5433FF;  /* fallback for old browsers */
+        background: hsl(250, 100%, 60%);  /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
