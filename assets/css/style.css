@@ -1467,6 +1467,11 @@ justify-content: center;
                
         }
 
+        .demo-cont__credits {animation: none !important; transform: none !important;}
+
+
+
+
     .modal:last-child:not( .modal:last-child > div) {  margin-left: 0 !important;}
         .modal:first-of-type {
               
@@ -1499,14 +1504,14 @@ justify-content: center;
         .modal:nth-child(2) td:not(td.year) {font-size: 16.5px !important; letter-spacing:  0.3px !important;}
         .modal:nth-child(2) footer {margin-top: 50px !important;}
         td.year {font-size: 16px !important; letter-spacing: 3px !important; padding-right: 30px !important;}
-        body{ overflow: scroll !important;}
+        body{ overflow: scroll !important; -webkit-overflow-scrolling: touch;}
         .demo-cont {
                 background-image: url("../img/bg.png");
                 background-size: 140vw 200vh !important;
                 background-position: 20% 0 !important;
         }
         .demo-cont__credits {width: 100%; top: 0;}
-        html {overflow: scroll !important}
+        html {overflow: scroll !important; -webkit-overflow-scrolling: touch;}
                 .modal {
                         width: 80% !important;
                         padding: 0  0 40px 0!important;
