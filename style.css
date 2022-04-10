@@ -9,7 +9,7 @@
 
 @font-face {
         font-family: "font1";
-        src: url("../font/comix-pro-2.ttf");
+        src: url("assets/font/comix-pro-2.ttf");
 }
 
 
@@ -29,7 +29,7 @@
 
 @font-face {
         font-family: "font2";
-        src: url("../font/PWPerspective.ttf");
+        src: url("assets/font/PWPerspective.ttf");
 }
 .modal {
     display: none;
@@ -55,7 +55,7 @@ td.year,  .modal:nth-child(2) .demo-cont__credits-close  {    color: rgb(166, 26
         padding: 100px 55px 50px 70px;
     }
 .demo-cont {
-        background-image: url("../img/bg.png");
+        background-image: url("img/bg.png");
         background-position: 107% 0;
         background-size: 610px 105%;
         background-repeat: no-repeat;
@@ -352,7 +352,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 45% auto !important;
                 background-position: center;
@@ -390,7 +390,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 55% auto !important;
                 background-position: center;
@@ -418,7 +418,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 58% auto !important;
                 background-position: center;
@@ -436,7 +436,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 55% auto !important;
                 background-position: center;
@@ -464,7 +464,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 52% auto !important;
                 background-position: center;
@@ -474,7 +474,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 55% auto !important;
                 background-position: center;
@@ -496,7 +496,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 65% auto !important;
                 background-position: center;
@@ -513,7 +513,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 55% auto !important;
                 background-position: center;
@@ -534,7 +534,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 65% auto !important;
                 background-position: center;
@@ -551,7 +551,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 75% auto !important;
                 background-position: center;
@@ -573,7 +573,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 75% auto !important;
                 background-position: center;
@@ -590,7 +590,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 75% auto !important;
                 background-position: center;
@@ -612,7 +612,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 80% auto !important;
                 background-position: center;
@@ -629,7 +629,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 85% auto !important;
                 background-position: center;
@@ -649,7 +649,7 @@ button {font-family: 'Neucha', cursive;}
 
 
         .fnc-slide:last-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 85% auto !important;
                 background-position: center;
@@ -666,7 +666,7 @@ button {font-family: 'Neucha', cursive;}
 
                 
         .fnc-slide:first-child .fnc-slide__mask-inner {
-                background-image: url("../img/sas.png") !important;
+                background-image: url("img/sas.png") !important;
                 background-repeat: no-repeat;
                 background-size: 85% auto !important;
                 background-position: center;
@@ -686,7 +686,7 @@ button {font-family: 'Neucha', cursive;}
  
                  
          .fnc-slide:nth-child(2) .fnc-slide__mask-inner {
-                 background-image: url("../img/sas.png") !important;
+                 background-image: url("img/sas.png") !important;
                  background-repeat: no-repeat;
                  background-size: 45% auto !important;
                  background-position: center;
@@ -708,7 +708,7 @@ button {font-family: 'Neucha', cursive;}
  
                  
          .fnc-slide:nth-child(2) .fnc-slide__mask-inner {
-                 background-image: url("../img/sas.png") !important;
+                 background-image: url("img/sas.png") !important;
                  background-repeat: no-repeat;
                  background-size: 47% auto !important;
                  background-position: 35% auto !important;
@@ -733,7 +733,7 @@ button {font-family: 'Neucha', cursive;}
  
                  
          .fnc-slide:nth-child(2) .fnc-slide__mask-inner {
-                 background-image: url("../img/sas.png") !important;
+                 background-image: url("img/sas.png") !important;
                  background-repeat: no-repeat;
                  background-size: 55% auto !important;
                  background-position: -20% auto !important;
@@ -756,7 +756,7 @@ button {font-family: 'Neucha', cursive;}
  
                  
          .fnc-slide:nth-child(2) .fnc-slide__mask-inner {
-                 background-image: url("../img/sas.png") !important;
+                 background-image: url("img/sas.png") !important;
                  background-repeat: no-repeat;
                  background-size: 55% auto !important;
                  background-position: -20% auto !important;
@@ -780,7 +780,7 @@ button {font-family: 'Neucha', cursive;}
  
                  
          .fnc-slide:nth-child(2) .fnc-slide__mask-inner {
-                 background-image: url("../img/sas.png") !important;
+                 background-image: url("img/sas.png") !important;
                  background-repeat: no-repeat;
                  background-size: 65% auto !important;
                  background-position: -20% auto !important;
@@ -804,7 +804,7 @@ button {font-family: 'Neucha', cursive;}
  
                  
          .fnc-slide:nth-child(2) .fnc-slide__mask-inner {
-                 background-image: url("../img/sas.png") !important;
+                 background-image: url("img/sas.png") !important;
                  background-repeat: no-repeat;
                  background-size: 75% auto !important;
                  background-position: -20% auto !important;
@@ -862,7 +862,7 @@ button {font-family: 'Neucha', cursive;}
 
         
 .fnc-slide__mask-inner {
-        background-image: url("../img/sas.png") !important;
+        background-image: url("img/sas.png") !important;
         background-repeat: no-repeat;
         background-size: 38% auto;
         background-position: center;
@@ -1337,15 +1337,15 @@ justify-content: center;
     }
     .example-slider .fnc-slide-1 .fnc-slide__inner,
     .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-        background-image: url("../img/1.JPEG");
+        background-image: url("img/1.JPEG");
     }
     .example-slider .fnc-slide-2 .fnc-slide__inner,
     .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-        background-image: url("../img/2.JPEG");
+        background-image: url("img/2.JPEG");
     }
     .example-slider .fnc-slide-3 .fnc-slide__inner,
     .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-        background-image: url("../img/3.jpeg");
+        background-image: url(".img/3.jpeg");
     }
     .example-slider .fnc-slide-3 .fnc-slide__inner:before {
         content: "";
@@ -1472,7 +1472,7 @@ justify-content: center;
         td.year {font-size: 16px !important; letter-spacing: 3px !important; padding-right: 30px !important;}
         body{ overflow: scroll !important;}
         .demo-cont {
-                background-image: url("../img/bg.png");
+                background-image: url("img/bg.png");
                 background-size: 140vw 200vh !important;
                 background-position: 20% 0 !important;
         }
