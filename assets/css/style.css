@@ -1620,7 +1620,7 @@ ul:not(.modal ul) {list-style-type: none !important;}
         .fnc-slide:first-child  .fnc-slide__action-btn {top: 0px !important;}
 
         .modal:nth-child(2) table {text-align: center !important;}
-        .modal:first-child { width: 105vw !important; margin-left: -7% !important;}
+        .modal:first-child { width: 107vw !important; margin-left: -8% !important;}
         .modal:first-child ul {margin-left: 0 !important;}
                 #t-hide1 {display: none;}
                 #t-show1 * {padding: 0 !important;}
