@@ -185,6 +185,8 @@ for (let el of modals) {
     el.innerHTML += html;
 }
 
+var active = "";
+
 $(".fnc-slide__action-btn").on("click", function() {
     let value = $(this).data("text");
 
@@ -192,20 +194,33 @@ $(".fnc-slide__action-btn").on("click", function() {
     $(".demo-cont").attr("data-modal", value);
     $(".modal").css("display", "none");
     modal.css("display", "block");
+    active = value;
     let x = window.matchMedia("(max-width: 1100px)");
-    
     if (x.matches) {
+         active = "";
         $(".fnc-slider, .fnc-nav").css("display", "none");
     }
-    
-        
+      
 })    
+
+$(".fnc-nav__control").on("click" , function() {
+    console.log(active)
+    if (active != "") {
+        let value = $(this).data("modal");
+        console.log(value)
+        $(`.modal[data-text = "${active}"]`).css("display", "none");
+        $(`.modal[data-text = "${value}"]`).css("display", "block");
+        active = value;
+    }
+})
 
 $(".demo-cont__credits-close").on("click", function() {
     document.querySelector(".demo-cont").classList.remove("credits-active");
     let x = window.matchMedia("(max-width: 1100px)");
-    if (x.matches)
+    if (x.matches) {
+    active = "";
          $(".fnc-slider, .fnc-nav").css("display", "block");
+    }
 })
 
 
