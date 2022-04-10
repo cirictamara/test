@@ -1587,7 +1587,7 @@ ul:not(.modal ul) {list-style-type: none !important;}
         ul {list-style-type: none !important;}
         .modal li:not(li:last-child) {margin-bottom: -5px !important;} 
        .modal li:not(li:first-of-type)::before {content: "\22EF"; display: block; width: fit-content; height: fit-content; margin: 0 auto; font-size: 35px;}
-        .modal:first-child {width:100% !important; margin-left: -4%!important; padding-left: 0 !important; padding-right: 0 !important;}
+        .modal:first-child {width:120% !important; margin-left: -4% !important; padding-left: 0 !important; padding-right: 0 !important;}
 }
 
 @media screen and (max-width: 640px) {
@@ -1620,7 +1620,7 @@ ul:not(.modal ul) {list-style-type: none !important;}
         .fnc-slide:first-child  .fnc-slide__action-btn {top: 0px !important;}
 
         .modal:nth-child(2) table {text-align: center !important;}
-        .modal:first-child { width: 100% !important; margin-left: -5% !important;}
+        .modal:first-child { width: 105vw !important; margin-left: -7% !important;}
         .modal:first-child ul {margin-left: 0 !important;}
                 #t-hide1 {display: none;}
                 #t-show1 * {padding: 0 !important;}
