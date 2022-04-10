@@ -980,6 +980,13 @@ justify-content: center;
 @media screen and (max-width: 650px) {
         .fnc-slide:nth-child(2) .fnc-slide__content, .fnc-slide:first-child .fnc-slide__content  {width: 90% !important; padding-top: 70px; left: 5% !important;}
         .fnc-slide:nth-child(2)  .fnc-slide__heading-line, .fnc-slide:first-child .fnc-slide__heading-line:first-child {  text-align: center !important; font-size:55px; line-height: 62px;}
+        
+#left table td:last-child {
+        background: unset !important;
+
+        color:rgb(163, 220, 255);
+        -webkit-background-clip: unset !important;
+        -webkit-text-fill-color: unset !important;}
 }
 
 
