@@ -1518,7 +1518,8 @@ justify-content: center;
                 background-position: 20% 0 !important;
         }
         .demo-cont__credits {width: 100%; top: 0;}
-        html {overflow: scroll !important; -webkit-overflow-scrolling: touch !important;}
+        html {
+                overflow: scroll !important; -webkit-overflow-scrolling: touch !important;}
                 .modal {
                         width: 80% !important;
                         padding: 0  0 40px 0!important;
@@ -1579,6 +1580,7 @@ justify-content: center;
                 letter-spacing: 1.5px !important;
                 padding: 8px !important;
         }
+        .modal {  overflow-y: scroll !important; -webkit-overflow-scrolling: touch !important;}
         td.gen {padding:  0 10px 0 0 !important; font-size: 17px !important;}
         td:first-child {font-weight: bold; padding-right: 0px;  font-size: 18px;}
         th {font-size: 12px; letter-spacing: 0.5px; font-weight: 700 !important;}
