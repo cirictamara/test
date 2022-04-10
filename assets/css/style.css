@@ -5,6 +5,7 @@
 * {
                 word-wrap: break-word;
                 font-family: "font1";
+  background-attachment: fixed;
 }
 
 @font-face {
